@@ -53,9 +53,17 @@ int main(){
     // function call
 }
 
+
+void print(char* line){
+    printf("%s\n",line);
+    
+}
+
 // function define
 // def 
 int add(int x , int y){
     // logic
+    print("puja");
+    // printf("%d\n",);
     return x+y;
 }
