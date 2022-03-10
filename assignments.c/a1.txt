@@ -1,0 +1,44 @@
+create a file f1
+
+day 01 :-
+
+create a program to read that file f1 and 
+    write random numbers upto 5 digits in a line 
+    max 100 per line
+    n lines
+    numbers should be generated randomly
+
+
+
+example :-
+
+15487,244536,332,4514,5,6,4,5,6....100nums
+.
+.
+... n lines
+
+
+links :-
+https://www.youtube.com/watch?v=Lksi1HEMZgY&list=PLfqABt5AS4Fmv8DszqJjIjmCjvTtTVslT
+https://youtu.be/rXaxUQvrtzs
+
+
+
+day 2 :-
+
+    read written file
+    create aray from lines and store numbers in it (* use strtok)
+    and wrie  a file of sorted numbers line by line | bubble sort
+
+
+    bubble sort
+
+    for(int i=0;i<n;i++){
+        for(int j=0;i<n-1;j++){
+            if(arr[j] > arr[j+1]){
+                arr[j]=arr[j]^arr[j+1];
+                arr[j+1]=arr[j]^arr[j+1];
+                arr[j]=arr[j]>arr[j+1];
+            }
+        }
+    }
